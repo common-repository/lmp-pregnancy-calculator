@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Bebas+Neue|Satisfy&display=swap');
+.satisfy {font-family: 'Satisfy', cursive;}
+.bebas {font-family: 'Bebas Neue', cursive;}
+small {font-size: 13px;}
+
+.pregcalc {
+    background-image: url('background-dots-light.png');
+    background-repeat: repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.weekly {
+    padding: 0 40px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.weekly.current {
+    display: block;
+}
+.blue {
+    color: #03468f;
+}
+.pink {
+    color: #f69684;
+}
+.black {
+    color: #000;
+}
+.purple {
+    color: #608ea8;
+}
+.darkgray {
+    color: #636363;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+.pregcalc .calendar {
+    background-image: url('calendar-icon.png');
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-size: contain;
+    position: relative;
+}
+.pregcalc .month, .pregcalc .day, .pregcalc .year {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.pregcalc .month {
+    top: 43px;
+    font-size: 24px;
+}
+.pregcalc .day {
+    top: 50px;
+    font-size: 44px;
+}
+.pregcalc .weeks {
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border: 4px solid #d96b88;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    line-height: 92px;
+    text-align: center;
+}
+.currentwk {
+    font-size: 24px;
+    margin-top: 30px;
+}
+.wkspreg {
+    margin: 15px 0;
+    font-size: 30px;
+}
+.wksdays {
+    font-style: italic;
+    font-weight: bold;
+}
+.progress_head {
+    font-size: 30px;
+    position: relative;
+}
+.percent {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.develop {
+    font-size: 33px;
+    margin-top: 40px;
+}
+.weektitle {
+    color: #636363;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.current .weektitle {
+    font-size: 30px;
+}
+.divider {
+    width: 90%;
+    border-bottom: 5px dotted #608ea8;
+    height: 1px;
+    margin: 30px auto;
+}
+.divider.short {
+    width: 50%;
+}
+.divider.gray {
+    border-bottom: 5px dotted #636363;
+}
+.pregcalc .date {
+    font-size: 21px;
+}
+.tri_word {
+    font-style: italic;
+    font-size: 27px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#slides {
+    border: 2px solid #eee;
+    margin-top: 15px;
+}
+.slick-prev.slick-arrow {
+    z-index: 9999999;
+}
+.slick-next {
+    right: 25px;
+}
+.slick-prev {
+    left: 13px;
+}
+#slides .post a {
+    font-size: 21px;
+}
+.first, .second, .third {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+.tri_text {
+    color: #636363;
+}
+.tri_milestones {
+    color: #000;
+    margin-top: 13px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 10px 0 0;
+    float: left;
+}
+.icon, .ms_full {
+    display: grid;
+}
+.clearfix {
+    clear: both;
+    margin-bottom: 15px;
+}
+
+.pc-form {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 20px 20px 0 20px;
+}
+.pc-form form.preg-calc {
+    background-color: transparent!important;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    border-bottom: 2px #f7f7f7 solid!important;
+    margin-bottom: 20px;
+}
+.mens_label {
+    margin-right: 10px;
+}
+.pc-form .duedate label.due, .pc-form .conception label.concept {
+    margin-right: 20px;
+}
+.pc-form .duedate .btn, .pc-form .conception .btn {
+    margin-top: 20px;
+}
+
+.pregcalc .alert {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.pc-form h3.develop {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.preg-calc .input-group .form-control {
+    display: inline-block;
+    width: 75%;
+    height: 40px;
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.preg-calc .form-control {
+    margin: 0 0 4px 0px;
+}
+.preg-calc label {
+    color: #555555;
+    font-size: 0.85em;
+}
+.preg-calc .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #f69684;
+    width: 100%;
+}
